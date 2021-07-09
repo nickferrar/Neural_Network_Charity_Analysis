@@ -36,3 +36,7 @@ yielded a loss of 0.573 and an accuracy of 0.726.
 
 ## Summary:
 
+The deep learning model did ok as it predicted about 73% of the data correctly. It didn't show much room for improvement with the three different attempts. I suspect the large
+variability in the asking amount and income amounts of the different charities are throwing the weights off in the neural network. However, since the data is tabular it might be 
+better to try using a Random Forest Classifier to obtain at least similar results. Since this is a classification problem with tabular data, the RFC should be able to handle
+the classification with appropriate results. 
