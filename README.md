@@ -9,10 +9,10 @@ classification, type of organization, income amount, special considerations, amo
 
 ## Results:
 
-### Data Preporcessing:
+### Data Preprocessing:
 
 -The target variable for this model was "IS SUCCESSFUL"
--The feature variables are STATUS, ASK_AMT, APPLICATION_TYPE, SPECIAL_CONSIDERATIONS, CLASSIFICATION, AFFILIATION, USE_CASE, ORGANIZATION, INCOME_AMT. Preprocessing and binning were done on APPLICATION_TYPE and CLASSIFICATION in order to rebin the data. 
+-The feature variables are STATUS, ASK_AMT, APPLICATION_TYPE, SPECIAL_CONSIDERATIONS, CLASSIFICATION, AFFILIATION, USE_CASE, ORGANIZATION, INCOME_AMT. Preprocessing and binning  were done on APPLICATION_TYPE and CLASSIFICATION in order to rebin the data. 
 -The variables to be dropped are EIN and NAME
 
 ### Compiling, Training and Evaluating the Model:
